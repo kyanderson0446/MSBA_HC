@@ -11,6 +11,7 @@ Throughout, the task was to distinguish between default and non-default customer
 Throughout the EDA process, it became evident that handling missing values, imputing values, balancing the dataset through up/downsampling, and feature engineering were crucial to improving model performance.
 
 ## Visualizations
+Numeric data types correlation plot to identify collinearity.
 ![Correlation Heatmap](https://github.com/kyanderson0446/MSBA_HC/blob/bfc2a49760c472eb364f95dbe361901256970488/EDA/EDA_heatmap.png)
 
 
