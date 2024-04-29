@@ -2,6 +2,9 @@
 https://www.kaggle.com/competitions/home-credit-default-risk/overview
 ## Overview
 This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify **default** and **non-default** customers. The final result was to determine the **customers likelihood (%) of defaulting**.
+
+The project was monitored by the University of Utah Master of Business Analytics program, in order to help graduate students practice modeling and cleaning data from a real company. I was assigned to a team of 4, where my contribution was mainly in the EDA and modeling portions of this project. Our main goal was to clean the data as much as possible before modeling. This took a lot of time but this is to be expected in any EDA. Once we had the confidence in the cleaning, we moved onto the modeling, with some reiterations of EDA.
+
 ### Business Context
 By accurately predicting default probabilities, HomeCredit can make informed decisions about loan approvals and minimize financial losses. Achieving a high performing model on unseen data will allow HomeCredit to market and target customers directly and cut costs, dramatically.
 
@@ -37,7 +40,9 @@ With preprocessing and feature engineering, the discrepancy between internal val
     Matplotlib
     Seaborn
 
-## Next Steps
+# Next Steps and Conclusion
+For this project, I would have liked to have had more collaboration with other teams as it became apparent that each team member was a **"Subject Matter Expert"**. This made collaboration difficult because each team member was working on their own part of the code and didn't get to see the full picture. Which is tough to ask but I ended up being that person. So for next time, I think having everyone work through the code together instead of chunks, would be helpful so everyone has the same base level understanding.
+## Steps to improve model
 To improve model performance and address the gap between internal validation and Kaggle scores:
 
     Tuning model hyperparameters
