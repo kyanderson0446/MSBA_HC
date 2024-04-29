@@ -12,7 +12,9 @@ Throughout the EDA process, it became evident that handling missing values, impu
 
 ## Visualizations
 Numeric data types correlation plot to identify collinearity.
+
 ![Correlation Heatmap](https://github.com/kyanderson0446/MSBA_HC/blob/bfc2a49760c472eb364f95dbe361901256970488/EDA/EDA_heatmap.png)
+
 
 
 ## Findings
