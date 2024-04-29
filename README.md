@@ -1,7 +1,9 @@
 # HomeCredit Default Prediction Project
 https://www.kaggle.com/competitions/home-credit-default-risk/overview
 ## Overview
-This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify default and non-default customers to help HomeCredit make decisions about offering loans to risky individuals. The final result was to determine their percentage likelihood of defaulting.
+This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify default and non-default customers. The final result was to determine the customers likelihood (%) of defaulting.
+### Business Context
+By accurately predicting default probabilities, HomeCredit can make informed decisions about loan approvals and minimize financial losses. Achieving a high performing model on unseen data will allow HomeCredit to market and target customers directly and cut costs, dramatically.
 
 ## Project Description
 In the HomeCredit Kaggle project, the task was to distinguish between default and non-default customers based on their credit history and other relevant features. HomeCredit specializes in offering loans to individuals considered risky by traditional lenders but still capable of repayment.
