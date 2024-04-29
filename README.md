@@ -1,7 +1,7 @@
 # HomeCredit Default Prediction Project
 https://www.kaggle.com/competitions/home-credit-default-risk/overview
 ## Overview
-This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify default and non-default customers. The final result was to determine the customers likelihood (%) of defaulting.
+This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify **default** and **non-default** customers. The final result was to determine the **customers likelihood (%) of defaulting**.
 ### Business Context
 By accurately predicting default probabilities, HomeCredit can make informed decisions about loan approvals and minimize financial losses. Achieving a high performing model on unseen data will allow HomeCredit to market and target customers directly and cut costs, dramatically.
 
@@ -15,7 +15,7 @@ Throughout the EDA process, it became evident that handling missing values, impu
 
 
 ## Findings
-With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive 0.97. However, the Kaggle score, was considerably lower at 0.65. This suggests that the model may have overfit the training data or failed to generalize well to unseen data.
+With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive **0.97**. However, the Kaggle score, was considerably lower at **0.65**. This suggests that the model may have overfit the training data or failed to generalize well to unseen data.
 
 ## Repository Contents
     Notebooks: Contains Jupyter notebooks used for EDA, modeling, plots, and feature engineering
