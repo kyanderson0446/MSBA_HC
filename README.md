@@ -6,7 +6,7 @@ This repository contains the files used for Exploratory Data Analysis (EDA) and 
 By accurately predicting default probabilities, HomeCredit can make informed decisions about loan approvals and minimize financial losses. Achieving a high performing model on unseen data will allow HomeCredit to market and target customers directly and cut costs, dramatically.
 
 ## Project Description
-In the HomeCredit Kaggle project, the task was to distinguish between default and non-default customers based on their credit history and other relevant features. HomeCredit specializes in offering loans to individuals considered risky by traditional lenders but still capable of repayment.
+Throughout, the task was to distinguish between default and non-default customers based on their credit history and other features. HomeCredit specializes in offering loans to individuals considered risky by traditional lenders but still capable of repayment.
 
 Throughout the EDA process, it became evident that handling missing values, imputing values, balancing the dataset through up/downsampling, and feature engineering were crucial to improving model performance.
 
@@ -15,7 +15,7 @@ Throughout the EDA process, it became evident that handling missing values, impu
 
 
 ## Findings
-With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive **0.97**. However, the Kaggle score, was considerably lower at **0.65**. This suggests that the model may have overfit the training data or failed to generalize well to unseen data.
+With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive **0.97**. However, the Kaggle score, was considerably lower at **0.65**. This suggests that the model **may have overfit the training data or failed to generalize well to unseen data.**
 
 ## Repository Contents
     Notebooks: Contains Jupyter notebooks used for EDA, modeling, plots, and feature engineering
