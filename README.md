@@ -10,6 +10,10 @@ In the HomeCredit Kaggle project, the task was to distinguish between default an
 
 Throughout the EDA process, it became evident that handling missing values, imputing values, balancing the dataset through up/downsampling, and feature engineering were crucial to improving model performance.
 
+## Visualizations
+![Correlation Heatmap](https://github.com/kyanderson0446/MSBA_HC/EDA/EDA_heatmap.png)
+
+
 ## Findings
 With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive 0.97. However, the Kaggle score, was considerably lower at 0.65. This suggests that the model may have overfit the training data or failed to generalize well to unseen data.
 
