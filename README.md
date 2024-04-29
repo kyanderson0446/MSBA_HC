@@ -19,6 +19,7 @@ Numeric data types correlation plot to identify collinearity.
 
 ## Findings
 [Modeling notebook](https://github.com/kyanderson0446/MSBA_HC/blob/549f5a8dc80ffc59d0ce85b6604465431d918afb/Modeling/HC_Revised_Model.ipynb)
+
 With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive **0.97**. However, the Kaggle score, was considerably lower at **0.65**. This suggests that the model **may have overfit the training data or failed to generalize well to unseen data.**
 
 ## Repository Contents
