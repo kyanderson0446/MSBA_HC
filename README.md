@@ -12,10 +12,10 @@ Throughout the EDA process, it became evident that handling missing values, impu
 With preprocessing and feature engineering, the discrepancy between internal validation performance and Kaggle submission scores was obvious. The internal AUC achieved during model development was an impressive 0.97. However, the Kaggle score, was considerably lower at 0.65. This suggests that the model may have overfit the training data or failed to generalize well to unseen data.
 
 ## Repository Contents
-    Notebooks: Contains Jupyter notebooks used for EDA, preprocessing, feature engineering, and model training.
-    Data: Includes the dataset(s) used in the project.
-    Models: Optionally, this directory can contain saved models or scripts for model deployment.
-    Visualizations: Contains visualizations generated during the EDA process.
+    Notebooks: Contains Jupyter notebooks used for EDA, modeling, plots, and feature engineering
+    Data: Read-in data from url
+    Models: Random Forest and Gradient Boosting
+    Visualizations: Commented out for performace, but heatmaps were used for correlation
 
 ## Technologies Used
     Python 3.11
