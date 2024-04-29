@@ -1,9 +1,9 @@
 # HomeCredit Default Prediction Project
 https://www.kaggle.com/competitions/home-credit-default-risk/overview
 ## Overview
-This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify **default** and **non-default** customers. The final result was to determine the **customers likelihood (%) of defaulting**.
+This repository contains the files used for Exploratory Data Analysis (EDA) and modeling in the HomeCredit Kaggle project. The project goal was to identify **default** and **non-default** customers. The final result was to determine the **customers' likelihood (%) of defaulting**.
 
-The project was monitored by the University of Utah Master of Business Analytics program. This project allowed graduate students to practice their modeling and data cleaning skills on real world data. Because of the size of the project, I was assigned to a team of 4, where my contribution was mainly in the EDA and modeling portions of this project. The teams main goal was to clean as much data as we physically could before modeling. This took a lot of time but this is to be expected in any EDA. Once we had the confidence in the cleaned data, we moved onto modeling, where we had some reiterations of the EDA.
+The project was monitored by the University of Utah Master of Business Analytics program. This project allowed graduate students to practice their modeling and data cleaning skills on real world data. Due to the project's scale, we were organized into teams of four. In my team, I played a significant role in both the EDA and modeling phases of the project. Our main objective as a team was to thoroughly clean the data before any modeling began. This required a significant amount of time, which is to be expected in any EDA. After ensuring the data was thoroughly cleaned, we began our modeling approach and occasionally revised the EDA.
 
 ### Business Context
 By accurately predicting default probabilities, HomeCredit can make informed decisions about loan approvals and minimize financial losses. Achieving a high performing model on unseen data will allow HomeCredit to market and target customers directly and cut costs, dramatically.
@@ -11,7 +11,7 @@ By accurately predicting default probabilities, HomeCredit can make informed dec
 ## Project Description
 Throughout, the task was to distinguish between default and non-default customers based on their credit history and other features. HomeCredit specializes in offering loans to individuals considered risky by traditional lenders but still capable of repayment.
 
-Throughout the EDA process [EDA notebook](https://github.com/kyanderson0446/MSBA_HC/blob/549f5a8dc80ffc59d0ce85b6604465431d918afb/EDA/HC_EDA_code.ipynb), it became evident that handling missing values, imputing values, balancing the dataset through up/downsampling, and feature engineering were crucial to improving model performance.
+Throughout the EDA process, [EDA notebook](https://github.com/kyanderson0446/MSBA_HC/blob/549f5a8dc80ffc59d0ce85b6604465431d918afb/EDA/HC_EDA_code.ipynb), it became evident that handling missing values, imputing values, balancing the dataset through up/downsampling, and feature engineering were crucial to improving model performance.
 
 ## Visualizations
 Numeric data types correlation plot to identify collinearity.
@@ -29,7 +29,7 @@ With preprocessing and feature engineering, the discrepancy between internal val
     Notebooks: Contains Jupyter notebooks used for EDA, modeling, plots, and feature engineering
     Data: Read-in data from url
     Models: Random Forest and Gradient Boosting
-    Visualizations: Commented out for performace, but heatmaps were used for correlation
+    Visualizations: Commented out for performance, but heatmaps were used for correlation
 
 ## Technologies Used
     Python 3.11
@@ -41,7 +41,7 @@ With preprocessing and feature engineering, the discrepancy between internal val
     Seaborn
 
 # Next Steps and Conclusion
-For this project, I would have liked to have had more collaboration with other teams as it became apparent that each team member was a **"Subject Matter Expert"**. This made collaboration difficult because each team member was working on their own part of the code and didn't get to see the full picture. Which is tough to ask but I ended up being that person. So for next time, I think having everyone work through the code together instead of chunks, would be helpful so everyone has the same base level understanding.
+For this project, I would have liked to have had more collaboration with other teams as it became apparent that each team member was a **"Subject Matter Expert"**. This made collaboration difficult because each team member was working on their own part of the code, and didn't get to see the full picture. Which is tough to ask but I ended up being that person. Therefore, for next time, having everyone work through the code together instead of chunks, would be helpful so that everyone has the same base level understanding.
 ## Steps to improve model
 To improve model performance and address the gap between internal validation and Kaggle scores:
 
